@@ -8,7 +8,7 @@
 
 var aws = require('aws-sdk');
 var s3 = new aws.S3({ apiVersion: '2006-03-01' });
-var myBucket = "to.dist.bioweather.net";
+var myBucket = "my_bucket_name";
 var idxFile = "files.txt";
 
 exports.handler = function(event, context){
